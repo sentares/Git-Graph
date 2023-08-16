@@ -1,0 +1,26 @@
+.timeline-cells-cell-block {
+	position: relative;
+	.modal-block {
+		position: absolute;
+		z-index: 20;
+		.icon {
+			position: absolute;
+			top: -16px;
+			right: -11px;
+		}
+	}
+	.timeline-cells-cell {
+		height: 15px;
+		width: 15px;
+		border: 1px solid rgba(0, 0, 0, 0); /* Set border to transparent */
+		margin: 1px;
+		background-color: #ededed;
+		fill: #ededed;
+		cursor: pointer;
+
+		&:hover,
+		:active {
+			border: 1px solid rgba(0, 0, 0, 0.3);
+		}
+	}
+}
